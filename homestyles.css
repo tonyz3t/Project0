@@ -15,4 +15,14 @@
   background-color: lightseagreen;
 }
 
+div {
+  font-size: 18px;
+}
+div p {
+  color: darkorange;
+}
+div ul {
+  color: purple;
+}
+
 /*# sourceMappingURL=homestyles.css.map */

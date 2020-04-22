@@ -16,3 +16,17 @@
     @extend %message;
     background-color: lightseagreen;
 }
+
+div {
+    font-size: 18px;
+
+    p {
+        color: darkorange;
+    }
+
+    ul {
+        color: purple;
+    }
+
+
+}
