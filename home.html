@@ -6,15 +6,36 @@
             h1 {
                 color: blue;
             }
+            @media (min-width: 600px) {
+                h1::before {
+                    content: "Whatup gamers welcome to my website.";
+                }
+            }
+            @media (max-width: 599px) {
+                h1::before {
+                    content: "WHATSUP GAMERS";
+                }
+            }
         </style>
+        <link rel="stylesheet" href="homestyles.css">
+        
     </head>
     <body>
-        <h1>Whatup gamers welcome to my website. </h1>
+        <h1></h1>
 
         <h3>Check out any of the links below</h3>
 
         <a href="about.html">About Me</a>
         <a href="projects.html">My Projects</a>
         <a href="peyton.html">For Autists Only</a>
+
+        <div>
+            <p class="me">What you will find on my website:</p>
+            <ol>
+                <li class="things">Things about me</li>
+                <li class="things">Shit I like</li>
+                <li class="things">Different Projects I have worked on</li>
+            </ol>
+        </div>
     </body>
 </html>

@@ -25,3 +25,15 @@ p::selection {
 .project {
 	font-size: 20px;
 }
+
+@media (min-width: 700px) {
+    .rolled {
+        display: none;
+	}
+}
+
+@media (max-width: 700px) {
+	.manning {
+		display: none;
+	}
+}

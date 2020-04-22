@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+ <html>
     <head>
         <title>About Me</title>
+        <!-- meta line tells the viewport to be displayed using the width of the device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             h1, p {
                 margin: 5px;
@@ -29,6 +31,8 @@
             I was just a boy with dreams of flying alongside a Boeing AH-64 Apache helicopter, but everything changed when the firenation attacked.
             After that day, I promised that i would fly my rocket straight into the chinese. 
         </p>
+
+        <p class="screen-only">Below is a picture of me and below that is a table of my 3 favorite games. Stay tuned for I might update the information on that table in the future</p>
         
         <!--Image-->
         <h4>Here is a picture of me:</h4>
@@ -58,5 +62,13 @@
                 <td>Sept. 25, 2007</td>
             </tr>
         </table>
+
+        <!-- form for users to input some information -->
+        <p>Tell me somthing about yourself</p>
+        <form class="screen-only">
+            <input name="name" type="text" placeholder="First Name">
+            <input name="name" type="text" placeholder="Last Name">
+            <input name="name" type="number" placeholder="Age">
+        </form>
     </body>
 </html>
