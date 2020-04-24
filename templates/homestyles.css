@@ -1,0 +1,29 @@
+.things, .me {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.me {
+  color: black;
+  background-color: lightgreen;
+}
+
+.things {
+  background-color: lightseagreen;
+}
+
+div {
+  font-size: 18px;
+}
+div p {
+  color: darkorange;
+}
+div ul {
+  color: purple;
+}
+
+/*# sourceMappingURL=homestyles.css.map */

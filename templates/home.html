@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tony's Site</title>
+        <!-- styles for the h1 tag -->
+        <style>
+            h1 {
+                color: blue;
+            }
+            @media (min-width: 600px) {
+                h1::before {
+                    content: "Whatup gamers welcome to my website.";
+                }
+            }
+            @media (max-width: 599px) {
+                h1::before {
+                    content: "WHATSUP GAMERS";
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="homestyles.css">
+
+        <!-- Bootstrap stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1></h1>
+
+        <h3>Check out any of the links below</h3>
+
+        <!-- links to other pages using bootstrap stylesheet-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <a href="about.html">About Me</a>
+                </div>
+                <div class="col-sm">
+                    <a href="projects.html">My Projects</a>
+                </div>
+                <div class="col-sm">
+                    <a href="peyton.html">For Autists Only</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- links to other pages -->
+        <a href="about.html">About Me</a>
+        <a href="projects.html">My Projects</a>
+        <a href="peyton.html">For Autists Only</a>
+
+        <div>
+            <p class="me">What you will find on my website:</p>
+            <ol>
+                <li class="things">Things about me</li>
+                <li class="things">Shit I like</li>
+                <li class="things">Different Projects I have worked on</li>
+            </ol>
+        </div>
+
+        <div>
+            <p>I LIKE DOGS BECAUSE:</p>
+
+            <ul>
+                <li>
+                    <div class="alert alert-primary" role="alert">They are cool</div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

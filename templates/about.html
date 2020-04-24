@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>About Me</title>
+        <!-- meta line tells the viewport to be displayed using the width of the device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1, p {
+                margin: 5px;
+            }
+
+            #about1 {
+                font: Arial, sans-serif;
+                color: black;
+                
+            }
+
+        </style>
+
+        <link rel="stylesheet" href="aboutstyles.css">
+
+        <!-- Bootstrap stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    </head>
+    <body>
+
+        <!-- Links to other pages using bootstrap grid columns -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <a href="home.html">Home Page</a>
+                </div>
+                <div class="col-sm">
+                    <a href="projects.html">My Projects</a>
+                </div>
+                <div class="col-sm">
+                    <a href="peyton.html">For Autists Only</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Links to other pages normal -->
+        <a href="home.html">Home Page</a>
+        <a href="projects.html">My Projects</a>
+        <a href="peyton.html">For Autists Only</a>
+
+        <h1 id="myname">Tony Dhanjal</h1>
+
+        <p id="about1">I am 26 year old attack helicopter from Baku, the capital city of Azerbaijan. I was 6 years old when it happened.
+            I was just a boy with dreams of flying alongside a Boeing AH-64 Apache helicopter, but everything changed when the firenation attacked.
+            After that day, I promised that i would fly my rocket straight into the chinese. 
+        </p>
+
+        <p class="screen-only">Below is a picture of me and below that is a table of my 3 favorite games. Stay tuned for I might update the information on that table in the future</p>
+        
+        <!--Image-->
+        <h4>Here is a picture of me:</h4>
+        <img src="batman.jpg" width="50%" height="50%" >
+
+        <!--Table of my favorite games-->
+        <h4>DEVON, GET THE TABLE</h4>
+        <table>
+            <tr>
+                <th>Game</th>
+                <th>Developer</th>
+                <th>Release Date</th>
+            </tr>
+            <tr>
+                <td>Dark Souls</td>
+                <td>From Software</td>
+                <td>Sept. 22, 2011</td>
+            </tr>
+            <tr>
+                <td>BloodBorne</td>
+                <td>From Software</td>
+                <td>March 25, 2015</td>
+            </tr>
+            <tr>
+                <td>Halo 3</td>
+                <td>Bungie</td>
+                <td>Sept. 25, 2007</td>
+            </tr>
+        </table>
+
+        <!-- form for users to input some information -->
+        <p>Tell me somthing about yourself</p>
+        <form class="screen-only">
+            <input name="name" type="text" placeholder="First Name">
+            <input name="name" type="text" placeholder="Last Name">
+            <input name="name" type="number" placeholder="Age">
+        </form>
+    </body>
+</html>

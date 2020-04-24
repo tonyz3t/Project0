@@ -1,0 +1,39 @@
+h2{
+	color: blue;
+	text-align: center;
+	}
+
+	/* the > sign indicated that only direct children are afftected by the style
+	for example: only direct list items in an ordered list will be colored red */
+ol > li {
+	color: red;
+	}
+	
+p {
+	color: black;
+}
+
+p::selection {
+	background-color: lightskyblue;
+}
+
+.description {
+	font: Arial, sans-serif;
+	font-size: 17px;
+}
+
+.project {
+	font-size: 20px;
+}
+
+@media (min-width: 700px) {
+    .rolled {
+        display: none;
+	}
+}
+
+@media (max-width: 700px) {
+	.manning {
+		display: none;
+	}
+}
