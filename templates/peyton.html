@@ -4,7 +4,7 @@
         <title>Haha rekt</title>
         
         <!-- Linking the stylesheet -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
 
         <!-- Bootstrap stylesheets -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -17,13 +17,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <a href="home.html">Home Page</a>
+                    <a href="{{ url_for('home') }}">Home Page</a>
                 </div>
                 <div class="col-sm">
-                    <a href="about.html">About Me</a>
+                    <a href="{{ url_for('about') }}">About Me</a>
                 </div>
                 <div class="col-sm">
-                    <a href="projects.html">My Projects</a>
+                    <a href="{{ url_for('projects') }}">My Projects</a>
                 </div>
             </div>
         </div>
@@ -35,8 +35,8 @@
 
         <h2>haha rekt</h2>
 
-        <img class="manning" src="manning.jpg" height="400px" width="400px">
+        <img class="manning" src="{{ url_for('static', filename='manning.jpg') }}" height="400px" width="400px">
 
-        <img class="rolled" src="rolled.png" height="200px" width="200px">
+        <img class="rolled" src="{{ url_for('static', filename='rolled.png') }}" height="200px" width="200px">
     </body>
 </html>

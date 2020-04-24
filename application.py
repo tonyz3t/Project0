@@ -9,3 +9,11 @@ def home():
 @app.route("/about")
 def about():
     return render_template("about.html")
+
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
+
+@app.route("/peyton")
+def peyton():
+    return render_template("peyton.html")

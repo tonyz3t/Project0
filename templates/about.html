@@ -17,7 +17,7 @@
 
         </style>
 
-        <link rel="stylesheet" href="aboutstyles.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='aboutstyles.css') }}">
 
         <!-- Bootstrap stylesheets -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -30,13 +30,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <a href="home.html">Home Page</a>
+                    <a href="{{ url_for('home') }}">Home Page</a>
                 </div>
                 <div class="col-sm">
-                    <a href="projects.html">My Projects</a>
+                    <a href="{{ url_for('projects') }}">My Projects</a>
                 </div>
                 <div class="col-sm">
-                    <a href="peyton.html">For Autists Only</a>
+                    <a href="{{ url_for('peyton') }}">For Autists Only</a>
                 </div>
             </div>
         </div>
